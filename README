@@ -1,0 +1,26 @@
+Titanium Jellyfish - Study Buddy
+website: www.cs.dartmouth.edu/~richard/TiJelly
+Group members: Julien Blanchet, Etai Klein, Richard Lange, Wesley Lau, Rebecca Leong
+
+============Components===============
+APtest: Source code for an app to test getting access points and the strength of their signal at various locations.
+
+BioPaco: Data from group members who were in the study as well as a python script to scrape all of the data and do some processing of it.
+
+SeedData: Python scripts and sample .csv files to seed our datastore with rooms.
+
+StudyBuddy: Main app for StudyBuddy. The main package has most of the UI and sensor collection in it. Database package is the code for local databases. 
+Clientside is code for talking to the server.
+
+StuddyBuddy-AppEngine: Source code for our server. We set up and ran our server on a local machine: 129.170.210.128:8888. We did launch it to google, but then realized that seeding the datastore and having potentially 60 users within a 24 hour period might exceed our read-write limits. So right now it's on the local machine. 
+
+StudyBuddyUI: A very basic UI before it was integrated into the main project.
+
+Other: miscellaneous jar files that were used 
+
+==========Running StudyBuddy===========
+The server must be running on the local machine to be able to sync, pull or push data up to it. 
+Otherwise, download the .apk and it should be good to go. 
+StudyBuddy requires updated GooglePlay to run, but it should check for it and upgrade it the device does not have it. 
+
+=========Other notes==================
