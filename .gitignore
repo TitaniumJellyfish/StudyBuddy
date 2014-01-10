@@ -1,0 +1,13 @@
+# application files
+*/*.apk
+*/*.ap_
+
+# generated files
+*/bin/
+*/gen/
+
+#Local config files
+*/project.properties
+
+#Eclipse stuff or something
+*/.settings/
